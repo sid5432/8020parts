@@ -31,7 +31,7 @@ For Linux, this would be in
 
 	$HOME/.local/share/OpenSCAD/libraries/8020/
 
-![sample 1](img/sample1.png?raw=true "Sample #")
+![Sample #1: 40-4040, 40-4080, 40-8080, 40-8016](img/sample1.png?raw=true "Sample #1: 40-4040, 40-4080, 40-8080, 40-8016")
 
 ## Mock-Up Mode
 
@@ -51,6 +51,13 @@ the ends of the extrusions anyway), then you can set the variable
 
 	openscad -D G8020OUTERONLY=true mymodel.scad
 
+(see images below). This allows you to finish your design with the
+mock-up parts, and later switch over to full details for rendering
+later.
+
+![sample #2](img/sample2.png?raw=true "some parts in full details")
+
+![sample #3](img/sample3.png?raw=true "same parts in mock-up mode")
 
 (*last revised 2020-12-20*)
 
