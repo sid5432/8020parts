@@ -31,6 +31,8 @@ For Linux, this would be in
 
 	$HOME/.local/share/OpenSCAD/libraries/8020/
 
+![sample 1](img/sample1.png?raw=true "Sample #")
+
 ## Mock-Up Mode
 
 A full rendering of the exact profile of the extrusions and
