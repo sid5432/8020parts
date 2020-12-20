@@ -1,7 +1,9 @@
-include <40-4040.scad>
-include <40-8080.scad>
-include <40-4080.scad>
-include <40-8016.scad>
+include <8020/40-4040.scad>
+include <8020/40-8080.scad>
+include <8020/40-4080.scad>
+include <8020/40-8016.scad>
+
+// G8020OUTERONLY=true;
 
 item40_4040(20);
 

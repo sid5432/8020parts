@@ -5,7 +5,7 @@ include <8020/40-4328.scad>
 include <8020/40-4332.scad>
 include <8020/40-4334.scad>
 
-G8020FAKE=true;
+// G8020FAKE=true;
 
 db40_2555();
 translate([0,60,0]) db40_2560();

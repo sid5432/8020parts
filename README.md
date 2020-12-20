@@ -44,6 +44,12 @@ to "false", the fake/mock-up pieces will be used instead the detailed models.
 
 	openscad -D G8020FAKE=true mymodel.scad
 
+(see images below).
+
+![sample #2](img/sample2.png?raw=true "some parts in full details")
+
+![sample #3](img/sample3.png?raw=true "same parts in mock-up mode")
+
 In addtion, if you only care about the exterior of the extrusions, and don't 
 ever need to look at the interior cut-outs (particularly if you are covering
 the ends of the extrusions anyway), then you can set the variable
@@ -55,9 +61,9 @@ the ends of the extrusions anyway), then you can set the variable
 mock-up parts, and later switch over to full details for rendering
 later.
 
-![sample #2](img/sample2.png?raw=true "some parts in full details")
+![sample #1](img/sample1.png?raw=true "some parts in full details")
 
-![sample #3](img/sample3.png?raw=true "same parts in mock-up mode")
+![sample #4](img/sample4.png?raw=true "same parts without interior details")
 
 (*last revised 2020-12-20*)
 
