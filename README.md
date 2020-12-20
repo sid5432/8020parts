@@ -44,7 +44,9 @@ to "false", the fake/mock-up pieces will be used instead the detailed models.
 
 	openscad -D G8020FAKE=true mymodel.scad
 
-(see images below).
+(see images below).  This allows you to finish your design with the
+mock-up parts, and later switch over to full details for rendering
+later.
 
 ![sample #2](img/sample2.png?raw=true "some parts in full details")
 
@@ -57,9 +59,7 @@ the ends of the extrusions anyway), then you can set the variable
 
 	openscad -D G8020OUTERONLY=true mymodel.scad
 
-(see images below). This allows you to finish your design with the
-mock-up parts, and later switch over to full details for rendering
-later.
+(see images below).
 
 ![sample #1](img/sample1.png?raw=true "some parts in full details")
 
