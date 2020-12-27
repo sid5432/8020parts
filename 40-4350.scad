@@ -7,7 +7,7 @@
 
 G8020FAKE = false;
 G8020OUTERONLY = false;
-G8020DEBUG = false;
+G8020DEBUG = true;
  
 module plt40_4350() {
   if ( G8020FAKE ) {

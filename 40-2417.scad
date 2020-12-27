@@ -1,3 +1,20 @@
+/*
+ * If G8020FAKE is true, we substitute the actual profile with a plain square;
+ * If G8020OUTERONLY is true, the holes are ignored;
+ * If G8020DEBUG is true, the main item item40_4040() is shown, otherwise this is
+ * a library; the item is not shown
+ */
+G8020FAKE = false;
+// G8020OUTERONLY = false;
+G8020DEBUG = false;
+
+module fm40_2417() {
+     if ( G8020FAKE ) {
+          fm40_2417_simple();
+     }else{
+          fm40_2417_real();
+     }
+}
 
 module profile40_2417() {
 polygon( points=[
@@ -5,8 +22,18 @@ polygon( points=[
 );
 }
 
+module fm40_2417_simple() {
+    C = 80;
+    N = 6;
+    P = 140;
+    Q = 56;
 
-module fm40_2417() {
+    linear_extrude(height=C) {
+         polygon( points=[[0,P],[N,P],[N,N],[Q,N],[Q,0],[0,0]]);
+    }
+}
+
+module fm40_2417_real() {
     A = 60;
     B = 20;
     C = 80;
@@ -50,7 +77,8 @@ module fm40_2417() {
     
 }
 
-
-// fm40_2417();
+if ( G8020DEBUG ) {
+  fm40_2417();
+}
 
     
